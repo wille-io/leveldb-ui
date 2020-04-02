@@ -23,4 +23,4 @@ set(uis
 
 QT5_WRAP_UI(src ${uis})
 add_executable(leveldb-ui ${src})
-target_link_libraries(leveldb-ui Qt5::Core Qt5::Widgets Qt5::Gui leveldb)
+target_link_libraries(leveldb-ui Qt5::Core Qt5::Widgets Qt5::Gui leveldb pthread)
